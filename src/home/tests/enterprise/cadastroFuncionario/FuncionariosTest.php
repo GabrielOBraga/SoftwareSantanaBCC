@@ -5,8 +5,11 @@
  * Date: 08/03/2017
  * Time: 14:34
  */
+
 namespace home\tests\enterprise\cadastroFuncionario;
 use \home\enterprise\cadastroFuncionario\Funcionarios;
+
+
 class FuncionariosTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -22,6 +25,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
         $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone);
         $this->assertEquals($funcObj1->getNome(),$name);
     }
+
     /**
      * Test if the constructor's name is stored correctly
      * @param string $name
@@ -35,6 +39,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
     {
         $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone );
     }
+
     /**
      * Test if the constructor's cpf is stored correctly
      * @param string $name
@@ -47,6 +52,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
     {
         $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone );
     }
+
     /**
      * Test if the constructor's cpf is stored correctly
      * @param string $name
@@ -60,31 +66,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
     {
         $funcObj1 = new Funcionarios($name, $cpf, $endereco, $telefone);
     }
-    /**
-     * Test if the constructor's endereco is stored correctly
-     * @param string $name
-     * @param string $cpf
-     * @param string $endereco
-     * @param string $telefone
-     * @dataProvider  providerTestConstructorValidEndereco
-     */
-    public function testConstructorValidEndereco (string $name , string $cpf , string $endereco , string $telefone)
-    {
-        $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone );
-    }
-    /**
-     * Test if the constructor's endereco is stored correctly
-     * @param string $name
-     * @param string $cpf
-     * @param string $endereco
-     * @param string $telefone
-     * @dataProvider  providerTestConstructorInvalidEndereco
-     * @expectedException \home\errors\InvalidArgument
-     */
-    public function testConstructorInvalidEndereco (string $name , string $cpf , string $endereco , string $telefone)
-    {
-        $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone );
-    }
+
     /**
      * Test if the constructor's telefone is stored correctly
      * @param string $name
@@ -96,8 +78,10 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
     public function testConstructorValidFone(string $name , string $cpf , string $endereco , string $telefone)
     {
         $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone );
-        $this->assertEquals($funcObj1->getFone(),$telefone);
+
+        $this->assertEquals($telefone, $funcObj1->getFone());
     }
+
     /**
      * Test if the constructor's telefone is stored correctly
      * @param string $name
@@ -111,6 +95,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
     {
         $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone );
     }
+
     public function invokeMethod(&$object, $methodName, array $parameters = array())
     {
         $reflection = new \ReflectionClass(get_class($object));
@@ -118,12 +103,14 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
         $method->setAccessible(true);
         return $method->invokeArgs($object, $parameters);
     }
+
     public function providerTestConstructorValidName (){
         return [
             ['Igor Tadayuki Hangui Silva','70393778100','Rua     ','81765519'],
             ['Gabriel Oliveira Braga','66658742227','Av.      ','92855617']
         ] ;
     }
+
     public function providerTestConstructorInvalidName (){
         return [
             ['Igor Tadayuki 434Hangui Silva','70393778100','Rua     ','81765519'],
@@ -137,6 +124,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
             ['Gabriel Oliveira Braga','66658742227','Av.      ','92855617']
         ];
     }
+
     public function providerTestInvalidCpf (){
         return [
             ['Igor','111.111.111-11','Rua     ','81765519'],
@@ -150,18 +138,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
             ['Gabriel','12345678901','Rua     ','81765519']
         ] ;
     }
-    public function providerTestConstructorValidEndereco (){
-        return [
-            ['Igor','70393778100','Av. Visconde Taunay','981765519'],
-            ['Gabriel','66658742227','Av. Ayrton Senna','92855617']
-        ] ;
-    }
-    public function providerTestConstructorInvalidEndereco (){
-        return [
-            ['Igor','70393778100','74542424','981765519'],
-            ['Gabriel','70393778100','!@#$%¨&*(','981765519']
-        ] ;
-    }
+
     public function providerTestConstructorValidFone (){
         return [
             ['Igor','70393778100','Av. Visconde Taunay','981765519'],
@@ -172,17 +149,19 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
             ['Gabriel','70393778100','Av. Visconde Taunay','1234-5678']
         ] ;
     }
+
     public function providerTestConstructorInvalidFone (){
         return [
-            ['Igor','70393778100','Av. Visconde Taunay',''],
+            ['Igor','70393778100','Av. Visconde Taunay','0'],
             ['Gabriel','70393778100','Av. Visconde Taunay','1234567891112'],
-            ['Gabriel','70393778100','Av. Visconde Taunay','4567-89119'],
-            ['Gabriel','70393778100','Av. Visconde Taunay','4567-89119'],
-            ['Gabriel','70393778100','Av. Visconde Taunay','4567-8'],
+            ['Gabriel','70393778100','Av. Visconde Taunay','54567-89119'],
+            ['Gabriel','70393778100','Av. Visconde Taunay','4516'],
             ['Gabriel','70393778100','Av. Visconde Taunay','4567-8'],
             ['Gabriel','70393778100','Av. Visconde Taunay','1234567'],
             ['Gabriel','70393778100','Av. Visconde Taunay','123456'],
             ['Gabriel','70393778100','Av. Visconde Taunay','12'],
         ] ;
     }
+
+
 }
