@@ -5,6 +5,7 @@ use home\enterprise\Model;
 use home\errors\InvalidArgument;
 class Funcionarios extends Model
 {
+    private $telefoneAux;
     protected $nome;
     protected $cpf;
     protected $dataNascimento;
@@ -16,32 +17,37 @@ class Funcionarios extends Model
     protected $comissao;
     protected $nVendas;
     public function   __construct(string $nome, string $cpf , string $endereco, string $telefone){
-        $telefone = preg_replace('[^0-9]', '', $telefone);
         // verifica se os campos estão preeenchidos
         if($cpf == null || $nome == null || $endereco == null || $telefone == null){
             throw new InvalidArgument("Todos os campos devem ser preenchidos.");
         }
         // verifica se possui um número decente de caracteres
-        if(strlen($endereco) < 5){
+        if(strlen($endereco) < 5) {
             throw new InvalidArgument("Endereço inválido. ");
         }
-        if(preg_match("[^0-9]",$telefone)==1){
-            throw new InvalidArgument("Telefone deve conter apenas caracteres numéricos.");
+        $telefone = $this->formatTelefone($telefone);
+        if(preg_match("/[^0-9]/",$telefone)==1 || strlen($telefone) < 8 || strlen($telefone)>9){
+            throw new InvalidArgument("Telefone deve conter apenas caracteres numéricos/telefone inválido.");
         }
-        if (strlen($telefone) < 8 || strlen($telefone)>9) {
-            throw new InvalidArgument("Tamanho inválido.");
-        }
-        if(preg_match("[^a-z]i",$nome)==1 || preg_match("[^0-9]",$nome)==1){
+        if(preg_match("/[^a-z]i/",$nome)==1){
             throw new InvalidArgument("Nome inválido. ");
         }
         if(!$this->validaCPF($cpf) == 'false'){
             throw new InvalidArgument("CPF inválido.");
         }
-        $this->cpf = (int)preg_replace( '/[^0-9]/', '', $cpf );
         $this->nome = $nome;
         $this->endereco = $endereco;
         $this->telefone = $telefone;
     }
+
+    function formatTelefone($telefone) {
+
+        $telefone = str_replace("-", "", $telefone);
+        $telefone = str_replace(" ", "", $telefone);
+        return $telefone;
+
+    }
+
     function validaCPF(string $cpf = null){
         // Verifica se um número foi informado
         if(empty($cpf)) {
