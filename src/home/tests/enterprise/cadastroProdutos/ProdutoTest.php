@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gabri
- * Date: 08/03/2017
- * Time: 14:55
- */
 
 namespace home\tests\enterprise\cadastroProdutos;
 use home\enterprise\cadastroProdutos\Produto;
@@ -19,12 +13,11 @@ class ProdutoTest extends \PHPUnit_Framework_TestCase
      * @param string $valor
      * @dataProvider  providerTestConstructorValidValor
      */
-    public function testConstructorValidValor (string $descricao ,string $referencia ,float $valor)
+    public function testConstructorValidValor (string $descricao ,int $referencia ,string $valor)
     {
         $prodObj1 = new Produto($descricao , $referencia , $valor);
         $this->assertEquals($prodObj1->getValor(),$valor);
     }
-
     /**
      * Test if the constructor's valor is stored correctly
      * @param string $descricao
@@ -33,12 +26,10 @@ class ProdutoTest extends \PHPUnit_Framework_TestCase
      * @dataProvider  providerTestConstructorInvalidValor
      * @expectedException \home\errors\InvalidArgument
      */
-    public function testConstructorInvalidValor (string $descricao ,string $referencia ,float $valor)
+    public function testConstructorInvalidValor (string $descricao ,int $referencia ,string $valor)
     {
         $prodObj1 = new Produto($descricao , $referencia , $valor);
     }
-
-
 
     public function invokeMethod(&$object, $methodName, array $parameters = array())
     {
@@ -47,20 +38,17 @@ class ProdutoTest extends \PHPUnit_Framework_TestCase
         $method->setAccessible(true);
         return $method->invokeArgs($object, $parameters);
     }
-
-
     public function providerTestConstructorValidValor (){
         return [
-            ['Oculos','2345','135.50'],
-            ['Oculos de Led','ref.3456','80.00']
+            ['Oculos',2345,'135.50'],
+            ['Oculos de Led',3456,'80.00'],
+            ['Oculos Azul',34565,'800.00']
         ] ;
     }
-
     public function providerTestConstructorInvalidValor (){
         return [
-            ['Oculos','2345','.'],
-            ['Oculos de Led','ref.3456','  ']
+            ['Oculos',2345,'34.3er4'],
+            ['Oculos de Led',3456,'1.1e']
         ] ;
     }
-
 }
