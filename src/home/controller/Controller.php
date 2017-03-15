@@ -14,12 +14,30 @@ use home\enterprise\cadastroServiceCar\servicosCar;
 use home\enterprise\contactCliente\webmail;
 use home\errors\InvalidArgument;
 
-
+/**
+ * Class Controller
+ * @package home\controller
+ */
 class Controller
 {
+
+    /**
+     * @var
+     */
     protected $newLogin;
+    /**
+     * @var
+     */
     protected  $session;
+    /**
+     * @var
+     */
     protected $produtos;
+
+    /**
+     * @param Request $request
+     * @return Response
+     */
 
     public function indexAction (Request $request){
         $this->session= new Session();
@@ -30,6 +48,11 @@ class Controller
         return new Response( ob_get_clean());
 
     }
+
+    /**
+     * @param Request $request
+     * @return RedirectResponse|Response
+     */
 
     public function cFuncionarioAction (Request $request){
         $error = '';
@@ -67,6 +90,10 @@ class Controller
 
     }
 
+    /**
+     * @param Request $request
+     * @return RedirectResponse|Response
+     */
 
     public function admAction (Request $request){
         $this->session = new Session();
@@ -92,6 +119,11 @@ class Controller
         return new Response( ob_get_clean());
 
     }
+
+    /**
+     * @param Request $request
+     * @return RedirectResponse|Response
+     */
 
     public function produtosAction (Request $request){
 
@@ -121,6 +153,11 @@ class Controller
 
     }
 
+    /**
+     * @param Request $request
+     * @return RedirectResponse|Response
+     */
+
     public function sistemaAction (Request $request){
         $this->session= new Session();
         $permission = ['igor'];
@@ -137,6 +174,11 @@ class Controller
         return new Response( ob_get_clean());
 
     }
+
+    /**
+     * @param Request $request
+     * @return RedirectResponse|Response
+     */
 
     public function  loginAction ( Request $request)
     {
@@ -172,6 +214,11 @@ class Controller
         }
         return $this->render_view('login');
     }
+
+    /**
+     * @param string $route
+     * @return Response
+     */
 
     public function render_view(string $route){
         ob_start();

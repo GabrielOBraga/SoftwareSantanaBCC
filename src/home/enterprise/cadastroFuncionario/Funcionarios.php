@@ -5,17 +5,60 @@ use home\enterprise\Model;
 use home\errors\InvalidArgument;
 class Funcionarios extends Model
 {
+    /**
+     * @var
+     */
     private $telefoneAux;
+    /**
+     * @var string
+     */
     protected $nome;
+    /**
+     * @var
+     */
     protected $cpf;
+    /**
+     * @var
+     */
     protected $dataNascimento;
+    /**
+     * @var mixed
+     */
     protected $telefone;
+    /**
+     * @var
+     */
     protected $email;
+    /**
+     * @var string
+     */
     protected $endereco;
+    /**
+     * @var
+     */
     protected $cep;
+    /**
+     * @var
+     */
     protected $salario;
+    /**
+     * @var
+     */
     protected $comissao;
+    /**
+     * @var
+     */
     protected $nVendas;
+
+    /**
+     * Funcionarios constructor.
+     * @param string $nome
+     * @param string $cpf
+     * @param string $endereco
+     * @param string $telefone
+     * @throws InvalidArgument
+     */
+
     public function   __construct(string $nome, string $cpf , string $endereco, string $telefone){
         // verifica se os campos estão preeenchidos
         if($cpf == null || $nome == null || $endereco == null || $telefone == null){
@@ -40,6 +83,11 @@ class Funcionarios extends Model
         $this->telefone = $telefone;
     }
 
+    /**
+     * @param $telefone
+     * @return mixed
+     */
+
     function formatTelefone($telefone) {
 
         $telefone = str_replace("-", "", $telefone);
@@ -47,6 +95,11 @@ class Funcionarios extends Model
         return $telefone;
 
     }
+
+    /**
+     * @param string|null $cpf
+     * @return bool
+     */
 
     function validaCPF(string $cpf = null){
         // Verifica se um número foi informado
@@ -90,77 +143,174 @@ class Funcionarios extends Model
             return true;
         }
     }
+
+    /**
+     * @param $email
+     */
+
     public function setEmail($email)
     {
         $this->email = $email;
     }
+
+    /**
+     * @param float $salario
+     */
+
     public function setSalario(float $salario)
     {
         $this->salario = $salario;
     }
+
+    /**
+     * @param float $comissao
+     */
+
     public function setComissao(float $comissao)
     {
         $this->comissao = $comissao;
     }
+
+    /**
+     * @param int $vendas
+     */
+
     public function setVendas(int $vendas)
     {
         $this->vendas = $vendas;
     }
+
+    /**
+     * @param string $fone
+     */
+
     public function setFone(string $fone)
     {
         $this->fone = $fone;
     }
+
+    /**
+     * @param string $fone
+     * @return mixed
+     */
+
     public function formatFone(string $fone){
         $telefone = $this->formatTelefone($fone);
         return $telefone;
     }
+
+    /**
+     * @param string $nascimento
+     */
+
     public function setNascimento(string $nascimento)
     {
         $this->dataNascimento = $nascimento;
     }
+
+    /**
+     * @param $cep
+     */
+
     public function setCep($cep)
     {
         $this->cep = $cep;
     }
+
+    /**
+     * @param string $endereco
+     */
+
     public function setEndereco(string $endereco)
     {
         $this->endereco = $endereco;
     }
+
+    /**
+     * @param $nVendas
+     */
+
     public function setNVendas($nVendas)
     {
         $this->nVendas = $nVendas;
     }
+
+    /**
+     * @return int
+     */
+
     public function getCpf ( ):int
     {
         return $this->cpf;
     }
+
+    /**
+     * @return string
+     */
+
     public function getNome ( ):string {
         return $this->nome;
     }
+
+    /**
+     * @return float
+     */
+
     public function getSalario():float
     {
         return $this->salario;
     }
+
+    /**
+     * @return float
+     */
+
     public function getComissao():float
     {
         return $this->comissao;
     }
+
+    /**
+     * @return float
+     * Retorna o salário calculado
+     */
+
     public function calcularSalario ()
     {
         $this->setSalario($this->getSalario() + $this->nVendas * $this->getComissao());
     }
+
+    /**
+     * zera o valor das vendas
+     */
+
     public function resetVendas ()
     {
         $this->vendas = 0;
     }
+
+    /**
+     * @return string
+     */
+
     public function getFone():string
     {
         return $this->telefone;
     }
+
+    /**
+     * @return string
+     */
+
     public function getIdAttribute()
     {
         return 'cpf';
     }
+
+    /**
+     * @return string
+     */
+
     public function  getClassName()
     {
         return 'Funcionarios';
