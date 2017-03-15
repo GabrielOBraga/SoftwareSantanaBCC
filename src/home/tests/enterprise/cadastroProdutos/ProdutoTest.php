@@ -21,7 +21,6 @@ class ProdutoTest extends \PHPUnit_Framework_TestCase
     /**
      * Test if the constructor's valor is stored correctly
      * @param string $descricao
-     * @param string $referencia
      * @param string $valor
      * @dataProvider  providerTestConstructorInvalidValor
      * @expectedException \home\errors\InvalidArgument
@@ -31,6 +30,13 @@ class ProdutoTest extends \PHPUnit_Framework_TestCase
         $prodObj1 = new Produto($descricao , $referencia , $valor);
     }
 
+    /**
+     * @param $object
+     * @param $methodName
+     * @param array $parameters
+     * @return mixed
+     */
+
     public function invokeMethod(&$object, $methodName, array $parameters = array())
     {
         $reflection = new \ReflectionClass(get_class($object));
@@ -38,6 +44,11 @@ class ProdutoTest extends \PHPUnit_Framework_TestCase
         $method->setAccessible(true);
         return $method->invokeArgs($object, $parameters);
     }
+
+    /**
+     * @return array
+     */
+
     public function providerTestConstructorValidValor (){
         return [
             ['Oculos',2345,'135.50'],
@@ -45,6 +56,11 @@ class ProdutoTest extends \PHPUnit_Framework_TestCase
             ['Oculos Azul',34565,'800.00']
         ] ;
     }
+
+    /**
+     * @return array
+     */
+
     public function providerTestConstructorInvalidValor (){
         return [
             ['Oculos',2345,'34.3er4'],
