@@ -83,40 +83,11 @@
     <legend>Dados de login</legend>
 
     <div class="form-group">
-        <label class="col-xs-3 control-label">Username</label>
-        <div class="col-xs-5">
-            <input type="text" class="form-control" name="username" />
-        </div>
-    </div>
-
-    <div class="form-group">
         <label class="col-xs-3 control-label">Email</label>
         <div class="col-xs-5">
             <input type="email" class="form-control" name="email" />
         </div>
     </div>
-
-    <div class="form-group">
-        <label class="col-xs-3 control-label">Login do Funcionário</label>
-        <div class="col-xs-5">
-            <input type="text" class="form-control" name="username" />
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label class="col-xs-3 control-label">Senha</label>
-        <div class="col-xs-5">
-            <input type="password" class="form-control" name="password" />
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label class="col-xs-3 control-label">Confirme a Senha</label>
-        <div class="col-xs-5">
-            <input type="password" class="form-control" name="checkpassword" />
-        </div>
-    </div>
-    </fieldset>
 
     <div class="form-group">
         <div class="col-xs-9 col-xs-offset-3">

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e78f0415-9ae1-4726-982b-f6112b86997c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/home/view/cadastrofuncionario.php" afterPath="$PROJECT_DIR$/src/home/view/cadastrofuncionario.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FuncionariosTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FuncionariosTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home/tests/enterprise/cadastroFuncionario/FuncionariosTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
@@ -48,6 +49,16 @@
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastrofuncionario.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/home/view/cadastrofuncionario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="818">
+              <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,10 +88,10 @@
         <option value="$PROJECT_DIR$/src/home/view/adm.php" />
         <option value="$PROJECT_DIR$/src/home/view/sistema.php" />
         <option value="$PROJECT_DIR$/src/home/view/produtos.php" />
-        <option value="$PROJECT_DIR$/src/home/view/cadastrofuncionario.php" />
         <option value="$PROJECT_DIR$/src/home/controller/Controller.php" />
         <option value="$PROJECT_DIR$/src/home/tests/enterprise/ModelTest.php" />
         <option value="$PROJECT_DIR$/src/home/enterprise/Model.php" />
+        <option value="$PROJECT_DIR$/src/home/view/cadastrofuncionario.php" />
       </list>
     </option>
   </component>
@@ -270,34 +281,8 @@
               <option name="myItemId" value="home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cadastroProdutos" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,18 +301,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cadastroFuncionario" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,12 +443,12 @@
       <workItem from="1489451153585" duration="5157000" />
       <workItem from="1489488999243" duration="4040000" />
       <workItem from="1489511432893" duration="2286000" />
-      <workItem from="1489528601464" duration="3730000" />
+      <workItem from="1489528601464" duration="4256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18787000" />
+    <option name="totallyTimeSpent" value="19313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -792,14 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/view/cadastrofuncionario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/home/view/adm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -911,6 +876,14 @@
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/view/cadastrofuncionario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
