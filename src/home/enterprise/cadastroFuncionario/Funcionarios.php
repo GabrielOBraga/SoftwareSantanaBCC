@@ -110,6 +110,10 @@ class Funcionarios extends Model
     {
         $this->fone = $fone;
     }
+    public function formatFone(string $fone){
+        $telefone = $this->formatTelefone($fone);
+        return $telefone;
+    }
     public function setNascimento(string $nascimento)
     {
         $this->dataNascimento = $nascimento;

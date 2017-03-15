@@ -78,8 +78,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
     public function testConstructorValidFone(string $name , string $cpf , string $endereco , string $telefone)
     {
         $funcObj1 = new Funcionarios($name , $cpf, $endereco ,$telefone );
-
-        $this->assertEquals($telefone, $funcObj1->getFone());
+        $this->assertEquals($funcObj1->formatFone($telefone), $funcObj1->getFone());
     }
 
     /**
@@ -106,7 +105,7 @@ class FuncionariosTest extends \PHPUnit_Framework_TestCase
 
     public function providerTestConstructorValidName (){
         return [
-            ['Igor Tadayuki Hangui Silva','70393778100','Rua     ','81765519'],
+            ['Igor Tadayuki Hangui','70393778100','Rua     ','81765519'],
             ['Gabriel Oliveira Braga','66658742227','Av.      ','92855617']
         ] ;
     }
