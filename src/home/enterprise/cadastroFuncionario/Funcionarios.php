@@ -184,9 +184,10 @@ class Funcionarios extends Model
      * @param string $fone
      */
 
-    public function setFone(string $fone)
+    public function setFone(string $fone):bool
     {
         $this->fone = $fone;
+        return true;
     }
 
     /**

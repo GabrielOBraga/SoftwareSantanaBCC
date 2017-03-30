@@ -3,7 +3,7 @@ declare (strict_types=1);
 namespace home\enterprise\cadastroProdutos;
 use home\enterprise\Model;
 use home\errors\InvalidArgument;
-class Produto
+class Produto extends Model
 {
     protected $ref;
     protected $descricao;
@@ -101,12 +101,5 @@ class Produto
     public function  getClassName()
     {
         return 'Produto';
-
-
-        if ($quantidade < $this->quantidade){
-            throw new InvalidArgument("Quantidade Vendida Menor que Estoque");
-        }
-        $this->quantidade = $quantidade + $this->quantidade;
     }
-
 }
