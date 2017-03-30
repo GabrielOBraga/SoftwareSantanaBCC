@@ -118,14 +118,16 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/twig/twig/test/Twig/Tests/Loader/Fixtures/phar/phar-sample.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-i18n/test/Translator/_files/translations.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/twig/twig/test/Twig/Tests/Loader/Fixtures/phar/phar-sample.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-i18n/test/Translator/_files/translations.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -188,6 +190,7 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
           <root url="file://$MODULE_DIR$/vendor/seld/jsonlint" />
+          <root url="file://$MODULE_DIR$/vendor/stecman/symfony-console-completion" />
           <root url="file://$MODULE_DIR$/vendor/symfony/asset" />
           <root url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
           <root url="file://$MODULE_DIR$/vendor/symfony/class-loader" />
@@ -287,6 +290,7 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
           <root url="file://$MODULE_DIR$/vendor/seld/jsonlint" />
+          <root url="file://$MODULE_DIR$/vendor/stecman/symfony-console-completion" />
           <root url="file://$MODULE_DIR$/vendor/symfony/asset" />
           <root url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
           <root url="file://$MODULE_DIR$/vendor/symfony/class-loader" />

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e78f0415-9ae1-4726-982b-f6112b86997c" name="Default" comment="" />
+    <list default="true" id="e78f0415-9ae1-4726-982b-f6112b86997c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AttSantana.iml" afterPath="$PROJECT_DIR$/.idea/AttSantana.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +25,38 @@
       <file leaf-file-name="ProdutoTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home/tests/enterprise/cadastroProdutos/ProdutoTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
+            <state relative-caret-position="1020">
               <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Produto.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Produto.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home/enterprise/cadastroProdutos/Produto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-338">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="578">
+              <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/home/view/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/home/view/fix/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -213,6 +237,7 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/stecman/symfony-console-completion" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -237,8 +262,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,34 +293,8 @@
               <option name="myItemId" value="home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cadastroProdutos" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,15 +316,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cadastroFuncionario" />
+              <option name="myItemId" value="fix" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,10 +341,6 @@
               <option name="myItemId" value="home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="errors" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -362,132 +353,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cadastroProdutos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cadastroFuncionario" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareSantanaBCC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,7 +361,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pooBccIfg2016" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SoftwareSantana" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -597,15 +462,17 @@
       <workItem from="1489511432893" duration="2286000" />
       <workItem from="1489528601464" duration="5029000" />
       <workItem from="1489537565880" duration="4817000" />
+      <workItem from="1490818363286" duration="1708000" />
+      <workItem from="1490878321001" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24903000" />
+    <option name="totallyTimeSpent" value="27826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -646,9 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,19 +671,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home/tests/enterprise/ModelTest.php" />
-    <entry file="file://$PROJECT_DIR$/tests/funcTestes/_bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/funcTestes/_bootstrap.php" />
     <entry file="file://$PROJECT_DIR$/codeception.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,35 +694,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/LoginFuncTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/loginFuncTest.suite.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/loginFuncTest/ControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/LoginFuncTest.php" />
+    <entry file="file://$PROJECT_DIR$/tests/loginFuncTest.suite.yml" />
+    <entry file="file://$PROJECT_DIR$/tests/loginFuncTest/ControllerTest.php" />
     <entry file="file://$PROJECT_DIR$/src/home/controller/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3286">
           <caret line="219" column="23" lean-forward="false" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="852">
           <caret line="310" column="21" lean-forward="false" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,19 +733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/view/fix/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/home/view/adm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="39" column="167" lean-forward="false" selection-start-line="39" selection-start-column="167" selection-end-line="39" selection-end-column="167" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,15 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/view/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-508">
           <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,25 +798,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/tests/acceptance/_bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/tests/acceptance/Solicit_FormFuncTestCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/tests/acceptance/_bootstrap.php" />
+    <entry file="file://$PROJECT_DIR$/src/home/tests/acceptance/Solicit_FormFuncTestCept.php" />
     <entry file="file://$PROJECT_DIR$/src/home/tests/enterprise/cadastroProdutos/ProdutoTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="1020">
           <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding />
         </state>
@@ -1024,8 +810,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home/enterprise/cadastroProdutos/Produto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="578">
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/view/fix/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="57" />
           <folding />
         </state>
       </provider>
