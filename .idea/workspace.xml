@@ -2,9 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78f0415-9ae1-4726-982b-f6112b86997c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/controller/Controller.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/enterprise/PersistenceInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/enterprise/cadastroFuncionario/Funcionarios.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/enterprise/cadastroProdutos/Produto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/enterprise/persistence/Model.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/errors/InvalidArgument.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/tests/enterprise/cadastroFuncionario/FuncionariosTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/tests/enterprise/cadastroProdutos/ProdutoTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/adm.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/cadastrofuncionario.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/contact.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/fix/footer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/fix/header.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/fix/headerAdm.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/login.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/produtos.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/sistema.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/vendas.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/new-age.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/new-age.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/img/app-store-badge.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/img/bg-cta.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/img/bg-pattern.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/img/demo-screen-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/img/google-play-badge.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/mapa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/new-age.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/new-age.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/less/new-age.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/jquery/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/css/simple-line-icons.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/fonts/Simple-Line-Icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/fonts/Simple-Line-Icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/fonts/Simple-Line-Icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/fonts/Simple-Line-Icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/fonts/Simple-Line-Icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/less/simple-line-icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/simple-line-icons/scss/simple-line-icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/tether/tether.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/lib/tether/tether.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0067.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0069.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0071.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0073.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0074.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0076.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0077.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0078.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0079.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0080.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0081.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0082.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0083.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0084.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0085.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0086.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0087.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0088.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0089.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0091.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0094.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0095.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0096.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0099.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0101.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0103.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0104.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0105.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0106.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0107.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0113.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0117.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0126.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0131.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0134.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0136.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0139.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0142.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0144.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0145.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0146.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0147.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0148.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0149.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0151.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0152.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0153.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0154.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/IMG-20170329-WA0155.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bglogin.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/index.php" />
       <change beforePath="$PROJECT_DIR$/.idea/AttSantana.iml" afterPath="$PROJECT_DIR$/.idea/AttSantana.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,20 +195,50 @@
         <entry file="file://$PROJECT_DIR$/src/tests/enterprise/cadastroFuncionario/FuncionariosTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProdutoTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/enterprise/cadastroProdutos/ProdutoTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="339">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#138#182#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidArgument.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/errors/InvalidArgument.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,40 +434,6 @@
             <path>
               <item name="SoftwareSantanaBCC" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftwareSantanaBCC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SoftwareSantanaBCC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareSantanaBCC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SoftwareSantanaBCC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareSantanaBCC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="enterprise" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SoftwareSantanaBCC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareSantanaBCC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="enterprise" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cadastroFuncionario" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SoftwareSantanaBCC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareSantanaBCC" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="enterprise" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cadastroProdutos" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SoftwareSantanaBCC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareSantanaBCC" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -414,18 +559,17 @@
       <workItem from="1490903874673" duration="186000" />
       <workItem from="1490905501415" duration="5025000" />
       <workItem from="1498072607019" duration="705000" />
-      <workItem from="1513080632371" duration="695000" />
+      <workItem from="1513080632371" duration="1124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35434000" />
+    <option name="totallyTimeSpent" value="35863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
@@ -461,8 +605,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/front.php" />
-    <entry file="file://$PROJECT_DIR$/src/home/tests/enterprise/cadastroFuncionario/FuncionariosTest.php" />
     <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/src/home/tests/enterprise/cadastroProdutos/ProdutoTest.php" />
     <entry file="file://$PROJECT_DIR$/src/home/view/fix/header.php" />
@@ -556,13 +698,6 @@
     <entry file="file://$PROJECT_DIR$/src/home/view/adm.php" />
     <entry file="file://$PROJECT_DIR$/web/front.php" />
     <entry file="file://$PROJECT_DIR$/src/home/view/sistema.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -612,18 +747,42 @@
     <entry file="file://$PROJECT_DIR$/src/tests/enterprise/cadastroFuncionario/FuncionariosTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/enterprise/cadastroProdutos/ProdutoTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="339">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#138#182#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/errors/InvalidArgument.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

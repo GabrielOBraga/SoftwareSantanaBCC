@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/home/errors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/home/view" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/controller" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vendor" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cilex/cilex" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cilex/console-service-provider" />
