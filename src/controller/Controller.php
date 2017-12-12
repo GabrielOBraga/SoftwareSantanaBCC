@@ -1,6 +1,6 @@
 <?php
 declare (strict_types=1);
-namespace  home\controller;
+namespace  src\controller;
 
 use src\errors\InvalidArgument;
 use Symfony\Component\HttpFoundation\RedirectResponse;
@@ -8,12 +8,9 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Session\Session;
 
-use home\enterprise\cadastroProdutos\produto;
-
-use home\enterprise\cadastroFuncionario\Funcionarios;
-use home\enterprise\cadastroServiceCar\servicosCar;
-use home\enterprise\contactCliente\webmail;
-use home\errors\InvalidArgument;
+use src\enterprise\cadastroProdutos\Produto;
+use src\enterprise\cadastroFuncionario\Funcionarios;
+use src\errors\InvalidArgument;
 
 /**
  * Class Controller
@@ -67,12 +64,6 @@ class Controller
         if ( $request->getMethod()=='POST')
         {
             try {
-                ?>
-
-
-                <?php
-
-
                 $funcionario = new Funcionarios($request->request->get('name') ,$request->request->get('cpf'),$request->request->get('rua') , $request->request->get('telefone'));
                 $funcionario->setEmail($request->request->get('email'));
                 $funcionario->setNascimento($request->request->get('nascimento'));
@@ -82,8 +73,8 @@ class Controller
                 $this->session->set('Funcionario', $funcionario);
                 return new RedirectResponse (__DIR__ . '/../view/adm.php');
             }
-            catch ( InvalidArgument $e){
-                $error=$e->getMessage();
+            catch (InvalidArgument $e){
+                $error = $e->getMessage();
                 $this->session->getFlashBag()->add('info',$e->getMessage());
             }
             catch ( \Throwable $e ){
@@ -234,6 +225,17 @@ class Controller
         ob_start();
         include sprintf(__DIR__."/../view/$route.php");
         return new Response (ob_get_clean());
+    }
+
+    public function contactAction(Request $request)
+    {
+        $form= new \createForms("/webapp/index.php/servidor/create");
+
+        $form->input("text", "qualquer coisa: ",'nome');
+
+        echo $form->end("Enviar");
+
+
     }
 
 }

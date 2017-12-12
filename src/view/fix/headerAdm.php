@@ -39,14 +39,14 @@
 
 
 <!-- Bootstrap core JavaScript -->
-<script src="../../santana/bootstrap/lib/jquery/jquery.min.js"></script>
-<script src="../../santana/bootstrap/lib/tether/tether.min.js"></script>
-<script src="../../santana/bootstrap/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../santanabcc/bootstrap/lib/jquery/jquery.min.js"></script>
+<script src="../../santanabcc/bootstrap/lib/tether/tether.min.js"></script>
+<script src="../../santanabcc/bootstrap/lib/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 <!-- Theme JavaScript -->
-<script src="../../santana/bootstrap/js/new-age.min.js"></script>
+<script src="../../santanabcc/bootstrap/js/new-age.min.js"></script>
 
 </body>

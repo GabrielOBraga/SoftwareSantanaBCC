@@ -1,7 +1,6 @@
 {
   "require": {
     "phpunit/phpunit": "5.3.*",
-    "phpdocumentor/phpdocumentor": "*",
     "symfony/routing": "*",
     "symfony/http-kernel": "*",
     "codeception/codeception": "*"

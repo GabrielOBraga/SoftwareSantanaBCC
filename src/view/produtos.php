@@ -77,7 +77,7 @@
                 </div>
 
                 <button type="submit" class="btn btn-primary">Salvar</button>
-                <a href="/santana/front.php/adm" class="btn btn-default">Cancelar</a>
+                <a href="/santanabcc/front.php/adm" class="btn btn-default">Cancelar</a>
             </div>
 
         </div>

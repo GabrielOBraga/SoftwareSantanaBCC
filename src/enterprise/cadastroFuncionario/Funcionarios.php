@@ -1,9 +1,10 @@
 <?php
 declare (strict_types=1);
-namespace home\enterprise\cadastroFuncionario;
-use home\enterprise\errors\InvalidCPF;
-use home\enterprise\persistence;
-use home\errors\InvalidArgument;
+namespace src\enterprise\cadastroFuncionario;
+use src\enterprise\errors\InvalidCPF;
+use src\enterprise\persistence;
+use src\errors\InvalidArgument;
+use src\enterprise\persistence\Model;
 
 class Funcionarios extends Model
 {

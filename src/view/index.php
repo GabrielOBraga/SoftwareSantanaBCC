@@ -1,33 +1,6 @@
 ﻿<!DOCTYPE html>
 <?php include(__DIR__ . "/../view/fix/header.php") ?>
 
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="header-content">
-                    <div class="header-content-inner">
-                        <h1>Otica Santana oferece os mais variados modelos de Armação e otimo Preço. Venha Conferir Nossos Preços ou Entre em Contato com Nossos Funcionarios.</h1>
-                        <a href="#contact" class="btn btn-outline btn-xl page-scroll">Compre Agora!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="device-container">
-                    <div class="device">
-                        <div class="screen">
-                            <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                            <img src="../../santana/img/IMG-20170329-WA0073.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="button">
-                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
 
 <section id="features" class="features">
 

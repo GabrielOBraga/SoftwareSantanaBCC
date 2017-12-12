@@ -8,7 +8,7 @@
 <div id="main" class="container-fluid">
     <h3 class="page-header">Adicionar Vendas</h3>
 
-    <form action="/santana/front.php/cProdutos" method="POST">
+    <form action="/santanabcc/front.php/cProdutos" method="POST">
         <!-- area de campos do form -->
         Selecione o Produto:
         <select name="produto">
@@ -19,7 +19,7 @@
         <div id="actions" class="row">
             <div>
                 <button type="submit" class="btn btn-primary">Salvar</button>
-                <a href="/santana/front.php/adm" class="btn btn-default">Cancelar</a>
+                <a href="/santanabcc/front.php/adm" class="btn btn-default">Cancelar</a>
             </div>
 
         </div>

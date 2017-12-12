@@ -9,19 +9,19 @@
     <title>Otica Santana</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../../santana/bootstrap/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../santanabcc/bootstrap/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="../../santana/bootstrap/lib/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../santana/bootstrap/lib/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="../../santanabcc/bootstrap/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../santanabcc/bootstrap/lib/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
     <!-- Theme CSS -->
-    <link href="../../santana/bootstrap/css/new-age.min.css" rel="stylesheet">
+    <link href="../../santanabcc/bootstrap/css/new-age.min.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
     <style>
@@ -52,6 +52,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing;
 use Symfony\Component\HttpKernel;
 use src\framework\Framework;
+
 
 $request= Request::createFromGlobals();
 
@@ -133,7 +134,7 @@ $matcher = new Routing\Matcher\UrlMatcher($routes,$context);
 $controllerResolver = new HttpKernel\Controller\ControllerResolver();
 $argumentResolver = new HttpKernel\Controller\ArgumentResolver();
 
-$framework = new framework($matcher,$controllerResolver,$argumentResolver);
+$framework = new Framework($matcher,$controllerResolver,$argumentResolver);
 $response = $framework->handle($request);
 
 
@@ -142,7 +143,7 @@ $response->send();
 ?>
 </body>
 <!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
-<script src="../../santana/bootstrap/js/jquery.js"></script>
-<script src="../../santana/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../santanabcc/bootstrap/js/jquery.js"></script>
+<script src="../../santanabcc/bootstrap/js/bootstrap.min.js"></script>
 
 </html>

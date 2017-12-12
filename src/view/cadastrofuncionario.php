@@ -1,4 +1,4 @@
-<body background="../../santana/img/fundosantana.png" style="background-size: 100%" id="page-cfuncionario" >
+<body background="../../santanabcc/img/fundosantana.png" style="background-size: 100%" id="page-cfuncionario" >
 
 <br/><br/>
 
@@ -9,11 +9,11 @@
     </button>
 
     <div class="container">
-        <a class="navbar-brand page-scroll" href="/santana/front.php/index">Otica Santana</a>
+        <a class="navbar-brand page-scroll" href="/santanabcc/front.php/index">Otica Santana</a>
         <div class="collapse navbar-collapse" id="navbarExample">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="/santana/front.php/login">Login</a>
+                    <a class="nav-link page-scroll" href="/santanabcc/front.php/login">Login</a>
                 </li>
             </ul>
         </div>
@@ -33,7 +33,7 @@
     }
     ?>
     <br>
-    <form action="/santana/front.php/cFuncionario" method="POST" id="basicBootstrapForm" class="form-horizontal">
+    <form action="/santanabcc/front.php/cFuncionario" method="POST" id="basicBootstrapForm" class="form-horizontal">
 
         <fieldset>
             <legend>Dados do Funcionário</legend>
@@ -138,7 +138,7 @@
         <div class="form-group">
             <div class="col-xs-9 col-xs-offset-3">
                 <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Salvar</button>
-                <a href="/santana/front.php/adm" class="btn btn-default">Cancelar</a>
+                <a href="/santanabcc/front.php/adm" class="btn btn-default">Cancelar</a>
             </div>
         </div>
     </form>
