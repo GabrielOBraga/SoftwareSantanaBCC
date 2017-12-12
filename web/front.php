@@ -1,3 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Otica Santana</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../santana/bootstrap/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../../santana/bootstrap/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../santana/bootstrap/lib/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Theme CSS -->
+    <link href="../../santana/bootstrap/css/new-age.min.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
+    <style>
+        .navbar-toggler {
+            z-index: 1;
+        }
+
+        @media (max-width: 576px) {
+            nav > .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
 <?php
 /**
  * Created by PhpStorm.
@@ -11,7 +51,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing;
 use Symfony\Component\HttpKernel;
-use framework\Framework;
+use src\framework\Framework;
 
 $request= Request::createFromGlobals();
 
@@ -19,38 +59,61 @@ $routes= new Routing\RouteCollection();
 
 
 $routes->add('adm_home',new Routing\Route('/adm',[
-            '_controller'=>'home\controller\Controller::admAction'
+            '_controller'=>'src\controller\ControllerAdm::admAction'
         ]
     )
 );
 
+$routes->add('contact_home',new Routing\Route('/contato',[
+            '_controller'=>'src\controller\Controller::contactAction'
+        ]
+    )
+);
 
 $routes->add('index_home',new Routing\Route('/index',[
-            '_controller'=>'home\controller\Controller::indexAction'
+            '_controller'=>'src\controller\Controller::indexAction'
+        ]
+    )
+);
+
+$routes->add('localizacao_home',new Routing\Route('/localizacao',[
+            '_controller'=>'src\controller\ControllerAdm::localizacaoAction'
         ]
     )
 );
 
 $routes->add('login_home',new Routing\Route('/login',[
-            '_controller'=>'home\controller\Controller::loginAction'
+            '_controller'=>'src\controller\Controller::loginAction'
+        ]
+    )
+);
+
+$routes->add('oticaMovel_home',new Routing\Route('/oticaMovel',[
+            '_controller'=>'src\controller\Controller::oticaMovelAction'
         ]
     )
 );
 
 $routes->add('produtos_home',new Routing\Route('/cProdutos',[
-            '_controller'=>'home\controller\Controller::produtosAction'
+            '_controller'=>'src\controller\ControllerAdm::produtosAction'
         ]
     )
 );
 
 $routes->add('cFuncionario_home',new Routing\Route('/cFuncionario',[
-            '_controller'=>'home\controller\Controller::cFuncionarioAction'
+            '_controller'=>'src\controller\ControllerAdm::cFuncionarioAction'
         ]
     )
 );
 
 $routes->add('sistema_home',new Routing\Route('/sistema',[
-            '_controller'=>'home\controller\Controller::sistemaAction'
+            '_controller'=>'src\controller\ControllerEnter::sistemaAction'
+        ]
+    )
+);
+
+$routes->add('vendas_home',new Routing\Route('/vendas',[
+            '_controller'=>'src\controller\ControllerEnter::vendasAction'
         ]
     )
 );
@@ -68,3 +131,10 @@ $response = $framework->handle($request);
 
 $response->send();
 
+?>
+</body>
+<!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
+<script src="../../santana/bootstrap/js/jquery.js"></script>
+<script src="../../santana/bootstrap/js/bootstrap.min.js"></script>
+
+</html>

@@ -4,7 +4,6 @@
     "phpdocumentor/phpdocumentor": "*",
     "symfony/routing": "*",
     "symfony/http-kernel": "*",
-    "symfony/framework-bundle": "*",
     "codeception/codeception": "*"
   },
   "autoload": {
