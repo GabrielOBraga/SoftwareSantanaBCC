@@ -40,7 +40,7 @@
             <div class="form-group">
                 <label class="col-xs-3 control-label">Nome Completo</label>
                 <div class="col-xs-4">
-                    <input type="text" class="form-control" name="firstName" placeholder="Primeio Nome" />
+                    <input type="text" class="form-control" name="firstName" placeholder="Primeiro Nome" />
                 </div>
                 <div class="col-xs-4">
                     <input type="text" class="form-control" name="lastName" placeholder="Sobrenome" />

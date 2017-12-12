@@ -2,6 +2,7 @@
 declare (strict_types=1);
 namespace  home\controller;
 
+use src\errors\InvalidArgument;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -66,6 +67,11 @@ class Controller
         if ( $request->getMethod()=='POST')
         {
             try {
+                ?>
+
+
+                <?php
+
 
                 $funcionario = new Funcionarios($request->request->get('name') ,$request->request->get('cpf'),$request->request->get('rua') , $request->request->get('telefone'));
                 $funcionario->setEmail($request->request->get('email'));

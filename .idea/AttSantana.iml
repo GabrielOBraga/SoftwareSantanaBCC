@@ -110,12 +110,14 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/twig/twig/test/Twig/Tests/Loader/Fixtures/phar/phar-sample.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/twig/twig/test/Twig/Tests/Loader/Fixtures/phar/phar-sample.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -194,6 +196,32 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/framework-bundle" />
           <root url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />
           <root url="file://$MODULE_DIR$/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php70" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/security-core" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/security-csrf" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/templating" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/validator" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/twig/twig" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-eventmanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-filter" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-json" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-serializer" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
+          <root url="file://$MODULE_DIR$/vendor/zetacomponents/base" />
+          <root url="file://$MODULE_DIR$/vendor/zetacomponents/document" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/behat/gherkin" />
@@ -268,6 +296,32 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/framework-bundle" />
           <root url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />
           <root url="file://$MODULE_DIR$/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php70" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/security-core" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/security-csrf" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/templating" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/validator" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/twig/twig" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-eventmanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-filter" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-json" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-serializer" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
+          <root url="file://$MODULE_DIR$/vendor/zetacomponents/base" />
+          <root url="file://$MODULE_DIR$/vendor/zetacomponents/document" />
         </SOURCES>
       </library>
     </orderEntry>

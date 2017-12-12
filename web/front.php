@@ -64,7 +64,15 @@ $routes->add('adm_home',new Routing\Route('/adm',[
     )
 );
 
+/*
 $routes->add('contact_home',new Routing\Route('/contato',[
+            '_controller'=>'src\controller\Controller::contactAction'
+        ]
+    )
+);
+*/
+
+$routes->add('testaForm',new Routing\Route('/testaForm',[
             '_controller'=>'src\controller\Controller::contactAction'
         ]
     )

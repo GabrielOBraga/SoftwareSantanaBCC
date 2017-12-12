@@ -47,15 +47,13 @@ class Model
                 $obj = unserialize($str);
                 if ($this->$attribute == $obj->$attribute) {
                     $str = serialize($this);
-                    file_put_contents($this->getClassName() . ".txt", implode(
-                        PHP_EOL, $strings));
+                    file_put_contents($this->getClassName() . ".txt", implode(PHP_EOL, $strings));
                     return true;
                 }
             }
         }
         $strings[]=serialize($this);
-        file_put_contents($this->getClassName() . ".txt", implode(
-            PHP_EOL, $strings));
+        file_put_contents($this->getClassName() . ".txt", implode(PHP_EOL, $strings));
     }
 
     public static function search(array $parameters = array()):array
