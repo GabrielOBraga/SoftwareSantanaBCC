@@ -7,10 +7,8 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Session\Session;
-
 use src\enterprise\cadastroProdutos\Produto;
 use src\enterprise\cadastroFuncionario\Funcionarios;
-use src\errors\InvalidArgument;
 
 /**
  * Class Controller
