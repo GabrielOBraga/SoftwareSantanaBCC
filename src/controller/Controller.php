@@ -1,18 +1,15 @@
 <?php
 declare (strict_types=1);
-namespace  home\controller;
+namespace  src\controller;
 
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Session\Session;
 
-use home\enterprise\cadastroProdutos\produto;
-
-use home\enterprise\cadastroFuncionario\Funcionarios;
-use home\enterprise\cadastroServiceCar\servicosCar;
-use home\enterprise\contactCliente\webmail;
-use home\errors\InvalidArgument;
+use src\enterprise\cadastroProdutos\Produto;
+use src\enterprise\cadastroFuncionario\Funcionarios;
+use src\errors\InvalidArgument;
 
 /**
  * Class Controller

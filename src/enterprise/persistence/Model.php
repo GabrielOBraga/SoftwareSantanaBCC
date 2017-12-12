@@ -2,9 +2,10 @@
 
 declare (strict_types=1);
 
-namespace home\enterprise\persistence;
+namespace src\enterprise\persistence;
 
 use src\enterprise\errors\IDnotFound;
+use src\enterprise\PersistenceInterface;
 
 class Model
 {
@@ -80,14 +81,4 @@ class Model
         }
         return $result;
     }
-
-    public function getIdAttribute()
-    {
-        return $this->getIdAttribute();
-    }
-    static public function  getClassName()
-    {
-        return $this->getClassName();
-    }
-
 }

@@ -53,6 +53,7 @@ use Symfony\Component\Routing;
 use Symfony\Component\HttpKernel;
 use src\framework\Framework;
 
+
 $request= Request::createFromGlobals();
 
 $routes= new Routing\RouteCollection();

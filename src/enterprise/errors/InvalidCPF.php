@@ -3,16 +3,16 @@
  * Created by PhpStorm.
  * User: gabri
  * Date: 12/12/2017
- * Time: 11:02
+ * Time: 12:08
  */
 
 namespace src\enterprise\errors;
 
-
 use Exception;
 
-class IdnotFound extends Exception
+class InvalidCPF extends Exception
 {
+
     static  public  function  className(){
         return 'InvalidArgument';
     }
