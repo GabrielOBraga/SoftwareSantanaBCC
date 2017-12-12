@@ -300,4 +300,14 @@ class Funcionarios extends Model
     {
         return 'Funcionarios';
     }
+
+    /**
+     * @return string
+     */
+    public function label($atributo): string
+    {
+        if($atributo == 'id_cpf'){
+            return "\n Cpf: ";
+        }
+    }
 }

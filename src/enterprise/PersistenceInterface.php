@@ -26,4 +26,6 @@ interface PersistenceInterface
      * @return string
      */
     public static function getIdAttribute():string;
+
+    public static function label():string;
 }

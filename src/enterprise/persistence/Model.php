@@ -4,7 +4,7 @@ declare (strict_types=1);
 
 namespace home\enterprise\persistence;
 
-use home\enterprise\errors\IDnotFound;
+use src\enterprise\errors\IDnotFound;
 
 class Model
 {

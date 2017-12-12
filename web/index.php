@@ -6,14 +6,17 @@
  * Time: 09:40
  */
 
+$pessoa = new \home\enterprise\cadastroFuncionario\Funcionarios('gabriel' , '03843011184' , 'oi movel' , '36545');
 
-$model->label("nome"); //Implementar este método em todos os models
 
-View::printFlashbags($model); //  imprime o conteúdo da flashbag, caso exista
+
+$cpf->$pessoa->label("id_cpf"); //Implementar este método em todos os models \\ \n CPF:
+
+View::printFlashbags($cpf); //  imprime o conteúdo da flashbag, caso exista
 
 $form= Form::Begin("/santana/front.php/servidor/create");// Inicia um formulário
 
-$form->input("text",$model,'nome'); //cria um label seguido de um input-text que pode receber um valor já preenchido
+$form->input("text",$cpf,'nome'); //cria um label seguido de um input-text que pode receber um valor já preenchido
 
 //do campo 'nome' do model $model
 
