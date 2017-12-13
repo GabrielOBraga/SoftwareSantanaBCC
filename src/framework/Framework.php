@@ -30,9 +30,9 @@ class Framework
         $this->matcher->getContext()->fromRequest($request);
         try{
             $request->attributes->add($this->matcher->match($request->getPathInfo()));
-            if (!$user){
-                $request->attributes->add($this->matcher->match('/login'));
-            }
+//            if (!$user){
+//                $request->attributes->add($this->matcher->match('/login'));
+//            }
         }catch (Routing\Exception\ResourceNotFoundException $e){
             $request->attributes->add($this->matcher->match('/index'));
         }catch (\Throwable $t){

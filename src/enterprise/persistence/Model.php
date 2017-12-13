@@ -21,7 +21,7 @@ class Model
                 return $obj;
             }
         }
-        throw new IDnotFound();
+        throw new IDnotFound("ID não encontrado.");
     }
     public function delete()
     {

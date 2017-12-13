@@ -130,14 +130,10 @@ $routes->add('vendas_home',new Routing\Route('/vendas',[
 
 $context = new Routing\RequestContext();
 $matcher = new Routing\Matcher\UrlMatcher($routes,$context);
-
 $controllerResolver = new HttpKernel\Controller\ControllerResolver();
 $argumentResolver = new HttpKernel\Controller\ArgumentResolver();
-
 $framework = new Framework($matcher,$controllerResolver,$argumentResolver);
 $response = $framework->handle($request);
-
-
 $response->send();
 
 ?>

@@ -8,7 +8,10 @@
   "autoload": {
     "psr-4": {
       "src\\": "src/",
-      "framework\\": "src/famework"
+      "framework\\": "src/famework",
+      "errors\\": "src/errors",
+      "view\\": "src/view",
+      "controller\\": "src/controller"
     }
   }
 }

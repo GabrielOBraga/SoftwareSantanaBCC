@@ -2,22 +2,11 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/home/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/framework" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/home" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/home/enterprise" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/home/errors" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/home/view" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/web" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/controller" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/enterprise" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/enterprise/cadastroFuncionario" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/enterprise/cadastroProdutos" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/enterprise/errors" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/enterprise/persistence" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/errors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/errors" isTestSource="false" packagePrefix="errors\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/famework" isTestSource="false" packagePrefix="framework\" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="src\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/controller" isTestSource="false" packagePrefix="controller\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/view" isTestSource="false" packagePrefix="view\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/codeception" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />

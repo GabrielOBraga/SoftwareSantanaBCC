@@ -10,6 +10,7 @@ use Symfony\Component\HttpFoundation\Session\Session;
 use src\enterprise\cadastroProdutos\Produto;
 use src\enterprise\cadastroFuncionario\Funcionarios;
 
+
 /**
  * Class Controller
  * @package home\controller
@@ -225,15 +226,11 @@ class Controller
         return new Response (ob_get_clean());
     }
 
-    public function contactAction(Request $request)
+    public function contactAction()
     {
-        $form= new \createForms("/webapp/index.php/servidor/create");
-
+        $form= new createForms("/webapp/index.php/servidor/create");
         $form->input("text", "qualquer coisa: ",'nome');
-
-        echo $form->end("Enviar");
-
-
+        $form->end("Enviar");
     }
 
 }
